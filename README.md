@@ -1,2 +1,0 @@
-# homepage
-Sora's Homepage
