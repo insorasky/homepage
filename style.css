@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #FDFDFD;
+    font-family:-apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen-Sans,Ubuntu,Cantarell,helvetica neue,sans-serif;
+}
+
+.center-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (min-width: 600px) {
+    .center-box {
+        width: 400px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .center-box {
+        width: 500px;
+    }
+}
+
+.title {
+    border-bottom: solid 6px #DD0000;
+    margin-bottom: 5px;
+}
+
+.links {
+    display: flex;
+    margin-top: 50px;
+    height: 30px;
+}
+
+.link-item {
+    height: 30px;
+    width: 30px;
+    background-size: 100% 100%;
+    margin-right: 45px;
+}
+
+.title h1 {
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: -.03em;
+}
+
+.username {
+    color: #999999;
+}
